@@ -1,0 +1,119 @@
+<html>
+<head>
+<title> How to Upload Your Website </title>
+</head>
+<link href="publishstyle.css" rel="stylesheet" type="text/css">
+<body> <br> <br><br>
+<font face= "times new roman" size="5">
+<body bgcolor="lightcyan">
+
+<div class="leftside">
+	<a href="project.html" class="btn1"><b>Home </b></a>
+   	 <a href="htmlframe.html" class="btn2"><b> HTML</b></a>
+                    <a href="cssframe.html" class="btn3"> <b>CSS</b></a>
+</div>
+
+<h1 align="center">How to Upload Your Website (in 6 Easy Steps) </h1>
+<br><br>
+<p>After days of coding and tweaking your website, it is time to publish your creation to the internet. <br>
+This tutorial will show you how to upload a website in a few easy steps. Let take a look!</p>
+<br> 
+<a href="#Pick a Reliable Web Hosting Company"> 1.Pick a Reliable Web Hosting Company </a>
+<br> <br>
+<a href="#Choose Your Website Upload Method"> 2.Choose Your Website Upload Method </a>
+<br> <br>
+<a href="#Upload Your Website File"> 3.Upload Your Website File </a>
+<br> <br>
+<a href="#Move the Website Files to the Main Root Directory"> 4.Move the Website Files to the Main Root Directory </a>
+<br> <br>
+<a href="#Import Your Database"> 5.Import Your Database</a>
+<br> <br>
+<a href="#Check If the Website Works"> 6.Check If the Website Works </a>
+<br><br><br>
+
+	<a name="Pick a Reliable Web Hosting Company"></a>
+	<h3> 1. Pick a Reliable Web Hosting Company</h3>
+	<p> Creating and maintaining a website is not something that you should take lightly. It is crucial to pick a top-notch web hosting provider<br>
+	that has all the key features to kick start your project.<br><br>
+	Here are several factors that you should consider when choosing a hosting provider:</P>
+
+	<ol type="1">
+	<li> <b><u>Live support:</b></u><br> 
+	A good hosting service should have a team of experts who can help you at any time. There is no worse feeling than running into some issues and having to wait for days to get a response.</li><br>
+	<li> <b><u>Control over your web hosting space:</u></b><br>
+	The less control you have over your account, the more likely you are to run into trouble when your site grows.</li><br>
+	<li> <b><u>Room for growth:</b></u><br>
+	Before you commit to a web host, make sure it offers scalable solutions that can provide more power (<b>such as virtual private servers or cloud hosting.</b>)</li><br>
+	<li><b><u>Money-back guarantee:</b></u><br>
+	Nobody likes a bad investment, so make sure to check for a refund policy. This will give you a time frame to test everything out before committing to the service.</li><br>
+<br><br><br><br><br><br><br>
+
+	<a name="Choose Your Website Upload Method"></a>	
+	<h3>2. Choose Your Website Upload Method</h3>
+	<p>The next challenge is picking the right tool to do the job. Here are four of the most popular tools to upload a website:<br></p>
+	<b>File Manager</b>
+	<P> A browser-based tool with all the key features to take care of your website files and directories. In hPanel, you can find File Manager under <br>
+	the Files section Most web hosting providers include a File Transfer Protocol (FTP) service, so you can use it to connect to an FTP client.<br>
+	FTP clients have no size limit, so you can upload as many files as you want. However, it does take a bit of technical knowledge that you can learn here.</P>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<a name="Upload Your Website File"></a>	
+	<h3>3. Upload Your Website File</h3>	
+	<p> We’ll show you how to upload your website using Hostinger’s File Manager and a well-known FTP client, FileZilla</p><br>
+	<b>Using FileZilla</b>
+	<P> Before we begin, make sure to extract the archive to your local computer as FileZilla does not have an Extract feature.</P>
+	<ol type="1">
+	<li>Connect your account to FileZilla.</li><br>
+	<li>Navigate to Remote Site panel and click on the public_html folder.</li><br>
+	<li>Head to the Local Site panel and locate the extracted files.</li><br>
+	<li>Select the files, and right-click to Upload them to the public_html directory.</li><br>
+	<p>That’s it! By following the above steps, you can transfer all files to public_html without doing any extra work. Otherwise, you’ll need to connect via SSH and extract the archive manually.</P></ol>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<a name="Move the Website Files to the Main Root Directory"></a>	
+	<h3>4. Move the Website Files to the Main Root Directory</h3>	
+	<p>In some cases, an additional directory will be created when you upload website files. As a result, visitors will be directed to yourdomain.com/subfolder instead of the default yourdomain.com.</p>
+	<p>To prevent that from happening, you need to make sure all the files are located in the root directory of your domain, which is public_html.</p>
+	<p>You can use the File Manager to move your website files. All you need to do is right-click on the subfolder, select the Move option, and set public_html as the destination.</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<a name="Import Your Database"></a>	
+	<h3>5. Import Your Database</h3>	
+	<p>If your website uses a database, you’ll also need to import it along with your website files:</p><br>
+	<ol type="1">
+	<li>Create a new MySQL database and user.</li><br>
+	<li>Access your newly created database via phpMyAdmin.</li><br>
+	<li>Use the Import section to upload the backup file of your database.</li><br>
+	<li>Update the MySQL database connection details (database name, host, user, password) in its configuration files.</li></ol><br>
+	<p> For more detailed steps, check out our guide on how to restore a database using phpMyAdmin. Skip this part if you do not use any database.</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<a name="Check If the Website Works"></a>	
+	<h3>6. Check If the Website Works</h3>
+	<p>Once the website files are uploaded, it’s time for a final check! If your domain name is already pointed to your web host, enter the domain name into your browser and see if it directs you to your website.</p>
+	<p> Keep in mind that DNS changes can take up to 48 hours to fully propagate worldwide. As such, if you just pointed your domain to the web hosts name servers, you might need to wait for a while.</p>
+	<p>Use an online tool like whatsmydns.net to check the state of your DNS propagation. Just enter your domain name and the tool will check the DNS records against multiple name servers.</p>
+	<P>Should you follow all the instructions correctly, your website will appear just fine. However, if you run into an issue, ask your hosting provider for assistance.</p>
+<br><br><br>
+		
+	<h3>Conclusion</h3>
+	<p> Designing a beautiful website will mean nothing if you do not publish it. Do not leave it untouched on your computer and let people appreciate your artwork!
+	To recap, here are the steps to upload your website: </p>
+	<ol type="1">
+	<li>Pick the right hosting provider.</li><br>
+	<li>Choose the tool and method to upload your website.</li><br>
+	<li>Upload your website files.</li><br>
+	<li>Move the website files to the main root folder.</li><br>
+	<li>Import your database.</li><br>
+	<li>Check if your website works worldwide.</li><br>
+	<p>That is it! It may sound a bit complicated at first, but if you follow all the steps carefully, you willl get your website running in no time. Good luck!</p></ol>
+<br><br><br>
+
+
+
+
+
+
+
+</body>
+</html>

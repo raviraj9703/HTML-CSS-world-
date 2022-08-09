@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Audio and video Tags</title>
+</head>
+<font face="times new roman" color="black" size="5">
+<body bgcolor="lightyellow"><br>
+<h2 align="center"><u>Audio and video Tags</u></h2>
+
+
+
+<ul type="disc">
+
+<li><b><u>Audio Tag:</u></b></li><br>
+<b>Tag:</b>< Audio ><br><br>
+<b>Description:</b><br>
+Defines sound content.<br><br>
+<b>Syntax:</b><br>
+< audio controls ><br>
+< source scr= <q>audio name</q> type= <q> </q> ><br>
+< /audio >
+<br><br>
+<b>Example:</b><br>
+< audio controls ><br>
+ < source src="horse.ogg" type="audio/ogg" ><br>
+ < source src="horse.mp3" type="audio/mpeg" ><br>
+< /audio ><br><br><br>
+
+
+
+
+<li><b><u>Source Tag:</u></b></li><br>
+<b>Tag:</b>< Source ><br><br>
+<b>Description:</b><br>
+Defines multiple media resources for media elements(< video > and < audio >).<br><br>
+<b>Syntax:</b><br>
+< source scr= <q>source name</q> type= <q> </q> >
+<br><br>
+<b>Example:</b><br>
+< audio controls ><br>
+ < source src="horse.ogg" type="audio/ogg" ><br>
+ < source src="horse.mp3" type="audio/mpeg" ><br>
+< /audio ><br><br><br>
+
+
+
+
+<li><b><u>Track Tag:</u></b></li><br>
+<b>Tag:</b>< Track ><br><br>
+<b>Description:</b><br>
+Defines text tracks for media elements (< video > and < audio >).<br><br>
+<b>Syntax:</b><br>
+< track src= <q>track name</q> kind= <q> </q> srclang= <q> </q> label= <q> </q> >
+<br><br>
+<b>Example:</b><br>
+< video width="320" height="240" controls >><br>
+ < source src="forrest_gump.mp4" type="video/mp4" ><br>
+ < source src="forrest_gump.ogg" type="video/ogg" ><br>
+ < track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English" ><br>
+ < track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian" ><br>
+< /video ><br><br><br>
+
+
+
+
+
+
+<li><b><u>Video Tag:</u></b></li><br>
+<b>Tag:</b>< video ><br><br>
+<b>Description:</b><br>
+Defines a video or movie.<br><br>
+<b>Syntax:</b><br>
+< video width= <q> </q> height= <q> </q> controls ><br>
+<source scr= “ source name” type= “ “ ><br>
+< /video >
+
+<br><br>
+<b>Example:</b><br>
+< video width="320" height="240" controls ><br>
+ < source src="movie.mp4" type="video/mp4" ><br>
+ < source src="movie.ogg" type="video/ogg" ><br>
+< /video ><br><br><br>
+
+
+</body>
+</html>

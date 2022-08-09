@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>Table Tags</title></head>
+
+<font face="times new roman" color="black" size="5">
+<body bgcolor="lightyellow"><br>
+<h2 align="center"><u>Table Tags</u></h2>
+
+<ul type="disc">
+
+<li><b><u>Table Tag:</u></b></li><br>
+<b>Tag:</b> < table ><br><br>
+<b>Description:</b><br>
+Defines a table.<br><br>
+<b>Syntax:</b><br>
+< table [align =<q>left</q>|<q>centre</q>|<q>right</q>][border=<q>n</q>][cellspacing=<q>n</q>][cell padding=<q>n</q>][width=<q>nn%</q>][bg color=<q> </q>][border color=<q> </q>] ><br>
+_ _ _ _ _ _ _<br>
+_ _ _ _ _ _ _ <br>
+< /table ><br><br>
+<b>Example:</b><br>
+< table ><br>
+ < tr ><br>
+ < th >Month< /th ><br>
+ < th >Savings< /th ><br>
+ < /tr ><br>
+ < tr ><br>
+ < td >January< /td ><br>
+ < td >$100< /td ><br>
+ < /tr ><br>
+< /table ><br><br><br>
+
+
+
+<li><b><u>caption Tag:</u></b></li><br>
+<b>Tag:</b> < caption ><br><br>
+<b>Description:</b><br>
+Defines a table caption.<br><br>
+<b>Syntax:</b><br>
+< caption > _ _ _ _ _ _ _< /caption ><br><br>
+
+<b>Example:</b><br>
+< table ><br>
+ < caption >Monthly savings< /caption ><br>
+ < tr ><br>
+ < th >Month< /th ><br>
+ < th >Savings< /th ><br>
+ < /tr ><br>
+ < tr ><br>
+ < td >January< /td ><br>
+ < td >$100< /td ><br>
+ < /tr ><br>
+< /table ><br><br><br>
+
+
+
+
+
+<li><b><u>Header  Tag:</u></b></li><br>
+<b>Tag:</b> < th ><br><br>
+<b>Description:</b><br>
+Defines a header cell in a table.<br><br>
+<b>Syntax:</b><br>
+< th > _ _ _ _ _ _ _ _< /th ><br><br>
+
+<b>Example:</b><br>
+< table ><br>
+ < tr ><br>
+ < th >Month</th><br>
+ < th >Savings</th><br>
+ < /tr ><br>
+< /table ><br><br><br>
+
+
+
+
+<li><b><u>Row Tag:</u></b></li><br>
+<b>Tag:</b> < tr ><br><br>
+<b>Description:</b><br>
+Defines a row in a table.<br><br>
+<b>Syntax:</b><br>
+< tr > _ _ _ _ _ _ _ _< /tr ><br><br>
+
+<b>Example:</b><br>
+< table ><br>
+ < tr ><br>
+ < th >Month</th><br>
+ < th >Savings</th><br>
+ < /tr ><br>
+< /table ><br><br><br>
+
+
+
+
+
+<li><b><u>Table Date Tag:</u></b></li><br>
+<b>Tag:</b> < td ><br><br>
+<b>Description:</b><br>
+Defines a data in cell in a table.<br><br>
+<b>Syntax:</b><br>
+< td > _ _ _ _ _ _ _ _< /td ><br><br>
+
+<b>Example:</b><br>
+< table ><br>
+ < tr ><br>
+ < td >Cell C< /td ><br>
+ < td >Cell D< /td ><br>
+ < /tr ><br>
+< /table ><br><br><br>
+
+
+
+
+
+
+
+<li><b><u>Table head Tag:</u></b></li><br>
+<b>Tag:</b> < thead ><br><br>
+<b>Description:</b><br>
+Groups the header content in a table.<br><br>
+<b>Syntax:</b><br>
+< thead > <br>
+< th >_ _ _ _ _ _ _ _< /th ><br>
+< th >_ _ _ _ _ _ _ _< /th > <br>
+ < /thead ><br>
+<br><br>
+
+<b>Example:</b><br>
+< table ><br>
+ < thead ><br>
+ < tr ><br>
+ < th >Month< /th ><br>
+ < th >Savings< /th ><br>
+ < /tr ><br>
+ < /thead ><br>
+< /table ><br><br><br>
+
+
+
+
+
+
+
+
+
+<li><b><u>Table Body Tag:</u></b></li><br>
+<b>Tag:</b> < tbody ><br><br>
+<b>Description:</b><br>
+Groups the body content in a table.<br><br>
+<b>Syntax:</b><br>
+< tbody > _ _ _ _ _ _ _ _ _< /tbody ><br>
+<br><br>
+
+<b>Example:</b><br>
+< tbody ><br>
+ < tr ><br>
+ < td >January< /td ><br>
+ < td >$100< /td ><br>
+ < /tr ><br>
+ < tr ><br>
+ < td >February< /td ><br>
+ < td >$80< /td ><br>
+ < /tr ><br>
+ < /tbody ><br><br><br>
+
+
+
+
+
+<li><b><u>Table foot Tag:</u></b></li><br>
+<b>Tag:</b> < tfoot ><br><br>
+<b>Description:</b><br>
+Groups the footer content in a table .<br><br>
+<b>Syntax:</b><br>
+< tfoot > _ _ _ _ _ _ _ _ _< /tfoot ><br>
+<br><br>
+
+<b>Example:</b><br>
+< tfoot ><br>
+ < tr ><br>
+ < td >Sum< /td ><br>
+ < td >$180< /td ><br>
+ < /tr ><br>
+ < /tfoot ><br><br><br>
+
+
+<li><b><u>Column Tag:</u></b></li><br>
+<b>Tag:</b> < col ><br><br>
+<b>Description:</b><br>
+Specifies column properties for each column within a < colgroup > element .<br><br>
+<b>Syntax:</b><br>
+< col > _ _ _ _ _ _ _ _ _< /col ><br>
+<br><br>
+<b>Example:</b><br>
+< col span="2" style="background-color:red" ><br>
+ < col style="background-color:yellow" ><br><br><br>
+
+
+
+
+<li><b><u>Column Group Tag:</u></b></li><br>
+<b>Tag:</b> < colgroup ><br><br>
+<b>Description:</b><br>
+Specifies a group of one or more columns in a table for formatting.<br><br>
+<b>Syntax:</b><br>
+< colgroup > <br>
+< col > _ _ _ _ _ _ <  /col ><br>
+< col > _ _ _ _ _ _ < /col ><br>
+< /colgroup ><br>
+<br><br>
+<b>Example:</b><br>
+< colgroup ><br>
+< col span="2" style="background-color:red" ><br>
+ < col style="background-color:yellow" ><br>
+< /colgroup ><br><br><br>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

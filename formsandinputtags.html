@@ -1,0 +1,301 @@
+<html>
+<head>
+<title>Forms and Input Tags</title>
+</head>
+<font face="times new roman" color="black" size="5">
+<body bgcolor="lightyellow"><br>
+<h2 align="center"><u>Forms and Input Tags</u></h2>
+
+
+
+<ul type="disc">
+
+<li><b><u>Form  Tag:</u></b></li><br>
+<b>Tag:</b>< form  ><br><br>
+<b>Description:</b><br>
+Defines an HTML form for user input.<br><br>
+<b>Syntax:</b><br>
+< form action= <q> url</q> method= <q>method name</q> >
+<br><br>
+<b>Example:</b><br>
+< form action="/action_page.php" method="get" ><br>
+ < label for="fname" >First name:< /label >
+ < input type="text" id="fname" name="fname"><br><br>
+ < label for="lname" >Last name:< /label >
+ < input type="text" id="lname" name="lname" ><br><br>
+ < input type="submit" value="Submit" >
+< /form ><br><br><br>
+
+
+
+
+
+
+
+<li><b><u>input  Tag:</u></b></li><br>
+<b>Tag:</b>< input  ><br><br>
+<b>Description:</b><br>
+Defines an input control.<br><br>
+<b>Syntax:</b><br>
+< input type= <q> </q> >
+<br><br>
+<b>Example:</b><br>
+< form action="/action_page.php" method="get" ><br>
+ < label for="fname" >First name:< /label >
+ < input type="text" id="fname" name="fname"><br><br>
+ < label for="lname" >Last name:< /label >
+ < input type="text" id="lname" name="lname" ><br><br>
+ < input type="submit" value="Submit" >
+< /form ><br><br><br>
+
+
+
+
+
+
+
+<li><b><u>Text area Tag:</u></b></li><br>
+<b>Tag:</b>< textarea ><br><br>
+<b>Description:</b><br>
+Defines a multiline input control (text area).<br><br>
+<b>Syntax:</b><br>
+< textarea id= <q> </q> name= <q> </q> rows=<q> </q> cols= <q> </q> >
+<br><br>
+<b>Example:</b><br>
+< label for="review" >Review of HTML and CSS:< /label ><br>
+< textarea id="review" name="review" rows="4" cols="50" ><br>
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web 
+development technologies.<br>
+< /textarea ><br><br><br>
+
+
+
+
+<li><b><u>Clickable button Tag:</u></b></li><br>
+<b>Tag:</b>< button ><br><br>
+<b>Description:</b><br>
+Defines a clickable click.<br><br>
+<b>Syntax:</b><br>
+< button type= <q>button/reset/submit</q> > name < /button >
+<br><br>
+<b>Example:</b><br>
+< button type="button" >Click Me! < /button ><br><br><br>
+
+
+
+
+<li><b><u>select Tag:</u></b></li><br>
+<b>Tag:</b>< select ><br><br>
+<b>Description:</b><br>
+Defines a drop-down list.<br><br>
+<b>Syntax:</b><br>
+< select name= <q>name</q> form= <q>form id</q> >
+<br><br>
+<b>Example:</b><br>
+< label for="cars" >Choose a car:< /label ><br>
+< select name="cars" id="cars" ><br>
+ < option value="volvo" >Volvo< /option ><br>
+ < option value="saab" >Saab< /option ><br>
+ < option value="mercedes" >Mercedes< /option ><br>
+ < option value="audi" >Audi< /option ><br>
+< /select ><br><br><br>
+
+
+
+
+
+<li><b><u>Optgroup Tag:</u></b></li><br>
+<b>Tag:</b>< optgroup ><br><br>
+<b>Description:</b><br>
+Defines a group of related options in a drop-down list.<br><br>
+<b>Syntax:</b><br>
+< optgroup label= <q> </q> > _ _ _ _ _ _ < /optgroup >
+<br><br>
+<b>Example:</b><br>
+< label for="cars" >Choose a car:< /label ><br>
+< select name="cars" id="cars" ><br>
+ < optgroup label="Swedish Cars" ><br>
+ < option value="volvo">Volvo</option><br>
+ < option value="saab" >Saab< /option ><br>
+ < /optgroup ><br>
+ < /select ><br><br><br>
+
+
+
+
+<li><b><u>Option Tag:</u></b></li><br>
+<b>Tag:</b>< option ><br><br>
+<b>Description:</b><br>
+Defines an option in a drop-down list .<br><br>
+<b>Syntax:</b><br>
+< option value= <q>name</q> > name < /option >
+<br><br>
+<b>Example:</b><br>
+< label for="cars" >Choose a car:< /label ><br>
+< select id="cars" ><br>
+ < option value="volvo" >Volvo< /option ><br>
+ < option value="saab" >Saab< /option ><br>
+ < option value="opel" >Opel< /option ><br>
+ < option value="audi" >Audi< /option ><br>
+< /select ><br><br><br>
+
+
+
+
+
+<li><b><u>Label Tag:</u></b></li><br>
+<b>Tag:</b>< label ><br><br>
+<b>Description:</b><br>
+Defines a label for an < input > element.<br><br>
+<b>Syntax:</b><br>
+< label for/from= <q>name</q> > name < /label >
+<br><br>
+<b>Example:</b><br>
+< form action="/action_page.php" >
+ < input type="radio" id="html" name="fav_language" value="HTML" >
+ < label for="html" >HTML< /label ><br>
+ < input type="radio" id="css" name="fav_language" value="CSS" >
+ < label for="css" >CSS< /label ><br>
+ < input type="radio" id="javascript" name="fav_language" value="JavaScript" >
+ < label for="javascript" >JavaScript< /label ><br><br>
+ < input type="submit" value="Submit" >
+< /form ><br><br><br>
+
+
+
+
+
+
+<li><b><u>Fieldset Tag:</u></b></li><br>
+<b>Tag:</b>< Fieldset ><br><br>
+<b>Description:</b><br>
+Groups related elements in a form.<br><br>
+<b>Syntax:</b><br>
+< fieldset ><br>
+< label for/from= <q>name</q> > name < /label ><br>
+< input type= <q> </q> ><br>
+< /fieldset >
+<br><br>
+<b>Example:</b><br>
+< html >br>
+< body ><br>
+
+< h1 >The fieldset element< /h1 ><br>
+
+< form action="/action_page.php" ><br>
+ < fieldset ><br>
+  < legend >Personalia:< /legend ><br>
+  < label for="fname" >First name:< /label ><br>
+   < input type="text" id="fname" name="fname" ><br>
+  < label for="lname" >Last name:< /label ><br>
+  < input type="text" id="lname" name="lname" ><br>
+  < label for="email" >Email:< /label ><br>
+  < input type="email" id="email" name="email" ><br>
+  < label for="birthday" >Birthday:< /label ><br>
+  < input type="date" id="birthday" name="birthday" ><br>
+  < input type="submit" value="Submit" ><br>
+ < /fieldset ><br>
+< /form ><br>
+< /body ><br>
+< /html ><br><br><br>
+
+
+
+
+
+
+
+<li><b><u>legend Tag:</u></b></li><br>
+<b>Tag:</b>< legend ><br><br>
+<b>Description:</b><br>
+Defines a caption for a < fieldset > elements.<br><br>
+<b>Syntax:</b><br>
+< legend > name < /legend >
+<br><br>
+<b>Example:</b><br>
+< html >br>
+< body ><br>
+
+< h1 >The fieldset element< /h1 ><br>
+
+< form action="/action_page.php" ><br>
+ < fieldset ><br>
+  < legend >Personalia:< /legend ><br>
+  < label for="fname" >First name:< /label ><br>
+   < input type="text" id="fname" name="fname" ><br>
+  < label for="lname" >Last name:< /label ><br>
+  < input type="text" id="lname" name="lname" ><br>
+  < label for="email" >Email:< /label ><br>
+  < input type="email" id="email" name="email" ><br>
+  < label for="birthday" >Birthday:< /label ><br>
+  < input type="date" id="birthday" name="birthday" ><br>
+  < input type="submit" value="Submit" ><br>
+ < /fieldset ><br>
+< /form ><br>
+< /body ><br>
+< /html ><br><br><br>
+
+
+
+
+
+
+
+<li><b><u>DataList Tag:</u></b></li><br>
+<b>Tag:</b>< datalist ><br><br>
+<b>Description:</b><br>
+Specifies a list of pre-defined options for input controls.<br><br>
+<b>Syntax:</b><br>
+< datalist id= <q>name</q> ><br>
+< option value=  <q>name</q> ><br>
+< option value= <q>name</q> ><br>
+< option value= <q>name</q> ><br>
+< /datalist >
+
+<br><br>
+<b>Example:</b><br>
+< datalist id="browsers" ><br>
+ < option value="Edge" ><br>
+ < option value="Firefox" ><br>
+ < option value="Chrome" ><br>
+ < option value="Opera" ><br>
+ < option value="Safari" ><br>
+< /datalist ><br><br><br>
+
+
+
+
+<li><b><u>Key pair Tag:</u></b></li><br>
+<b>Tag:</b>< keygen ><br><br>
+<b>Description:</b><br>
+Defines a key pair generator field (for forms).<br><br>
+<b>Syntax:</b><br>
+< keygen name= <q>name</q> >
+<br><br>
+<b>Example:</b><br>
+< form action="demo_keygen.asp" method="get" ><br>
+Username: < input type="text" name="usr_name" ><br>
+Encryption: < keygen name="security" ><br>
+ < input type="submit" ><br>
+< /form ><br><br><br>
+
+
+
+
+<li><b><u>Output Tag:</u></b></li><br>
+<b>Tag:</b>< output ><br><br>
+<b>Description:</b><br>
+Defines the result of a calculation.<br><br>
+<b>Syntax:</b><br>
+< output name= <q>for/form/name</q> > < /output >
+<br><br>
+<b>Example:</b><br>
+< form oninput="x.value=parseInt(a.value)+parseInt(b.value)" ><br>
+ < input type="range" id="a" value="50" ><br>
++< input type="number" id="b" value="25" ><br>
+=< output name="x" for="a b" >< /output ><br>
+< /form ><br><br><br>
+
+
+</body>
+</html>

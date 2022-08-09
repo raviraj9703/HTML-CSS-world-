@@ -1,0 +1,173 @@
+<html>
+<head>
+<title> Background Properties </title>
+</head>
+<body>
+<font face="times new roman" color="black" size="5">
+<body bgcolor="honeydew">
+<dt><h2 align="center"><u>Background Properties:</u></h2></dt>
+
+<ul type="disc">
+<li> <b><u> background Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Defines a variety of background properties within one education<br>
+<b><u>Values: </b></u><br>
+bg-color, bg-image, position/bg-size, bg-repeat, bg-origin, bg-clip,
+bg-attachment, initial, inherit;<br><br>
+<b> <u>Syntex:</u></b> <br>
+background: bg-color| bg-image| position/bg-size| bg-repeat| bg-origin|
+bg-clip| bg-attachment| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+body {<br>
+  background: lightblue url("img_tree.gif") no-repeat fixed center;<br>
+}<br><br><br>
+
+
+
+
+<li> <b><u> background-attachment Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Specify whether the background image is fixed in the viewport or scrolls<br>
+<b><u>Values: </b></u><br>
+scroll, fixed, local, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-attachment: scroll| fixed| local| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+body {<br>
+  background-image: url("img_tree.gif");<br>
+  background-repeat: no-repeat;<br>
+  background-attachment: fixed;<br>
+}<br><br><br>
+
+
+
+<li> <b><u> background-clip Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Specifies the painting area of the background<br>
+<b><u>Values: </b></u><br>
+Border-box, padding-box, contentbox, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-clip: Border-box| padding-box| contentbox| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+div {<br>
+  border: 10px dotted black;<br>
+  padding: 15px;<br>
+  background: lightblue;<br>
+  background-clip: padding-box;<br>
+}<br><br><br>
+
+
+
+
+<li> <b><u> background-color Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Defines an element’s background color<br>
+<b><u>Values: </b></u><br>
+Defines an element’s background color<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-color: Defines an element’s background color<br><br>
+<u> <b>Example:</b></u><br>
+body {background-color: coral;}<br><br><br>
+
+
+
+<li> <b><u> background-image Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Defines an element’s background image<br>
+<b><u>Values: </b></u><br>
+url, none, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-image: url| none| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+body {<br>
+ background-image: url("paper.gif");<br>
+ background-color: #cccccc;<br>
+}<br><br><br>
+
+
+
+<li> <b><u> background-origin Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Specifies the positioning area of the background images<br>
+<b><u>Values: </b></u><br>
+Border-box, padding-box, contentbox, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-origin: Border-box| padding-box| contentbox| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+#example1 {<br>
+  border: 10px dashed black;<br>
+  padding: 25px;<br>
+  background: url(paper.gif);<br>
+  background-repeat: no-repeat;<br>
+  background-origin: content-box;<br>
+}<br><br><br>
+
+
+
+
+
+
+<li> <b><u> background-position Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Defines the origin of a background image<br>
+<b><u>Values: </b></u><br>
+Percentage, length, left, center, right, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-position: Percentage| length| left| center| right| initial| inherit;<br><br>
+<u> <b>Example:</b></u><br>
+body {<br>
+  background-image: url('w3css.gif');<br>
+  background-repeat: no-repeat;<br>
+  background-attachment: fixed;<br>
+  background-position: center;<br>
+}<br><br><br>
+
+
+
+
+<li> <b><u> background-repeat Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Specify whether/how the background image is tiled<br>
+<b><u>Values: </b></u><br>
+Repeat, repeat-x, repeat-y, no-repeat, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-repeat: Repeat| repeat-x| repeat-y| no-repeat| initial| inherit; <br><br>
+<u> <b>Example:</b></u><br>
+body {<br>
+  background-image: url("paper.gif");<br>
+  background-repeat: repeat-y;<br>
+}<br><br><br>
+
+
+
+
+
+<li> <b><u> background-size Property</b></u></li><br>
+<b><u> Description: </b></u><br>
+Specifies the size of the background images<br>
+<b><u>Values: </b></u><br>
+Length, percentage, auto, cover, contain, initial, inherit<br><br>
+<b> <u>Syntex:</u></b> <br>
+background-size: Length| percentage| auto| cover| contain| initial| inherit; <br><br>
+<u> <b>Example:</b></u><br>
+#example1 {<br>
+  background: url(mountain.jpg);<br>
+  background-repeat: no-repeat;<br>
+  background-size: auto;<br>
+}<br>
+
+#example2 {<br>
+  background: url(mountain.jpg);<br>
+  background-repeat: no-repeat;<br>
+  background-size: 300px 100px;<br>
+}<br><br><br>
+
+
+</ul>
+</body>
+</html>
+
+
+
+
+

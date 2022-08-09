@@ -1,0 +1,68 @@
+.leftside .btn1
+{
+	color: black;
+    	text-decoration: none;
+    	font-family: "Roboto", sans-serif;
+  	font-size: 20px;
+	margin-right: 5px;
+	border: 3px solid black;
+ 	text-transform: uppercase;
+	
+    	margin-left: 10px;
+
+
+
+}
+
+
+.leftside .btn2
+{
+	color: black;
+    	text-decoration: none;
+    	font-family: "Roboto", sans-serif;
+  	font-size: 20px;
+	margin-right: 5px;
+	border: 3px solid black;
+ 	text-transform: uppercase;
+	
+    	margin-left: 10px;
+
+	
+}
+
+.leftside .btn3
+{
+	color: black;
+    	text-decoration: none;
+    	font-family: "Roboto", sans-serif;
+  	font-size: 20px;
+	margin-right: 5px;
+	border: 3px solid black;
+ 	text-transform: uppercase;
+	
+    	margin-left: 10px;
+
+	
+	
+}
+
+
+.btn1:hover
+{
+background-color: orange ;
+transition: all 0.1s ease-in;
+}
+
+
+
+.btn2:hover
+{
+background-color: purple;
+transition: all 0.1s ease-in;
+}
+
+.btn3:hover
+{
+background-color: green;
+transition: all 0.1s ease-in;
+}
